@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
+  "name": "starwars-strongest",
+  "description": "A WebApp using Qwik to find the strongest star wars character",
   "engines": {
     "node": ">=15.0.0"
   },
