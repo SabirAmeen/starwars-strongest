@@ -11,12 +11,27 @@
 :root {
   --app-background: #21130d;
   --app-text-color: #fff;
+  --app-mobile-size: 767px;
 }
 
 body {
   background: var(--app-background);
   color: var(--app-text-color);
   font-family: 'Poppins', sans-serif;
+}
+
+.main-content {
+  margin: 0 auto;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+@media screen and (max-width: var(--app-mobile-size)) {
+  .main-content {
+    width: 300px;
+  }
 }
 
 .main-footer {

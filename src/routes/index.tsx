@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { loader$ } from '@builder.io/qwik-city';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import Matcher from '../components/matcher';
 
 export const data = loader$(async () => {
   try {
@@ -16,8 +17,9 @@ export const data = loader$(async () => {
 export default component$(() => {
   const test = data.use();
   return (
-    <div>
-      {test.value.dataVal}
+    <div class='main-content'>
+      <h2 class='main-heading'>Who is the strongest?</h2>
+      <Matcher />
     </div>
   );
 });
