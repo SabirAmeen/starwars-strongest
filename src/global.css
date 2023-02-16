@@ -5,8 +5,13 @@
  * the styles in here will be applied to the Document, without any sort of CSS scoping.
  *
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
  
 :root {
   --app-background: #21130d;
@@ -14,30 +19,14 @@
   --app-mobile-size: 767px;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: var(--app-background);
   color: var(--app-text-color);
   font-family: 'Poppins', sans-serif;
-}
-
-.main-content {
-  margin: 0 auto;
-}
-
-.main-heading {
-  text-align: center;
-}
-
-@media screen and (max-width: var(--app-mobile-size)) {
-  .main-content {
-    width: 300px;
-  }
-}
-
-.main-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 45px;
 }

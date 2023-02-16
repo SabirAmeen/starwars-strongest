@@ -1,24 +1,11 @@
 import { component$ } from '@builder.io/qwik';
-import { loader$ } from '@builder.io/qwik-city';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import Matcher from '../components/matcher';
 
-export const data = loader$(async () => {
-  try {
-    const getVal = await (await fetch('https://swapi.dev/api/people/1')).json();
-    return ({
-      dataVal: JSON.stringify(getVal)
-    })
-  } catch(e) {
-    return ({ dataVal: "Couldn't get data" })
-  }
-})
-
 export default component$(() => {
-  const test = data.use();
   return (
-    <div class='main-content'>
-      <h2 class='main-heading'>Who is the strongest?</h2>
+    <div class='w-300 mx-auto'>
+      <h2 class="text-center mb-10 text-3xl">Who is the strongest?</h2>
       <Matcher />
     </div>
   );

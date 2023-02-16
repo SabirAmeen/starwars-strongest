@@ -5,8 +5,8 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <header>
-      test
+    <header class="fixed top-0 left-0 right-0 text-center text-[30px] font-bold font-main">
+      Star Wars Matcher
     </header>
   );
 });
