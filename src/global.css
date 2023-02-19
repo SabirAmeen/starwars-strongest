@@ -16,7 +16,7 @@
 :root {
   --app-background: #21130d;
   --app-text-color: #fff;
-  --app-mobile-size: 767px;
+  --app-header-size: 70px;
 }
 
 html, body {
@@ -28,5 +28,9 @@ body {
   color: var(--app-text-color);
   font-family: 'Poppins', sans-serif;
   padding-bottom: 25px;
-  padding-top: 45px;
+}
+
+.main-section {
+  height: calc(100% - var(--app-header-size));
+  overflow: auto;
 }

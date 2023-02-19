@@ -11,7 +11,7 @@ export default component$(() => {
           <Slot />
         </section>
       </main>
-      <footer class="fixed bottom-0 left-0 right-0 text-center">
+      <footer class="fixed bottom-0 left-0 right-0 text-center bg-[var(--app-background)]">
         Made with ♡ by <a href="https://github.com/SabirAmeen" target="_blank">Sabir Ameen</a>
       </footer>
     </>
