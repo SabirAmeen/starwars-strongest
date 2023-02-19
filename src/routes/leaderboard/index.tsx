@@ -9,7 +9,10 @@ export const getLeaderboard = loader$(async (ev: any) => {
 
 
 export default component$(() => {
-  const leaderBoardData: any = getLeaderboard.use();
+  const {
+    value: {characterList = []} = {}
+  }: any = getLeaderboard.use();
+  console.log(characterList)
   const renderLeaderBoard = (character: any) => {
     return (
       <li class="flex justify-between items-center px-5 py-5">
@@ -38,7 +41,7 @@ export default component$(() => {
                 </span>
             </li>
             {
-              leaderBoardData?.value?.map((character: any) => renderLeaderBoard(character))
+              characterList?.map((character: any) => renderLeaderBoard(character))
             }
         </ul>
     </div>

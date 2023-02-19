@@ -23,7 +23,7 @@ export default component$(() => {
   const firstImg = state.firstImg || firstImage;
   const secondImg = state.secondImg || secondImage;
   return (
-    <div class='w-300 mx-auto'>
+    <div class='w-300 mx-auto h-full'>
       <h2 class="text-center mb-10 text-3xl">Who is the strongest?</h2>
       {
         loader.loading && <Loader />
