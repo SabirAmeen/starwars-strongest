@@ -7,7 +7,7 @@ export default component$(() => {
     <>
       <main class="h-full">
         <Header />
-        <section class="h-full flex items-center">
+        <section class="h-full flex items-center main-section">
           <Slot />
         </section>
       </main>
