@@ -17,7 +17,7 @@ export default component$(() => {
     return (
       <li class="flex justify-between items-center px-5 py-5">
         <div class="text-center max-w-[50%]">
-            <img src={character.image} alt={character.name}
+            <img src={`/images/${character.image}`} alt={character.name}
                 class="w-[100px] h-[100px] lg:w-40 lg:h-40 object-cover object-top my-5"
             />
             <span class="text-lg">{character.name}</span>

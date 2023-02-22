@@ -7,7 +7,7 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Luke_Skywalker",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg",
+    "image": "Luke_Skywalker.webp",
     "born": -19,
     "bornLocation": "polis massa",
     "died": 34,
@@ -29,10 +29,7 @@
       "New Republic",
       "Resistance"
     ],
-    "masters": [
-      "Obi-Wan Kenobi",
-      "Yoda"
-    ],
+    "masters": ["Obi-Wan Kenobi", "Yoda"],
     "apprentices": [
       "Leia Organa",
       "Ben Solo (along with a dozen apprentices)",
@@ -49,7 +46,7 @@
     "homeworld": "tatooine",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/C-3PO",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png",
+    "image": "C-3PO.webp",
     "dateCreated": -32,
     "dateDestroyed": 3,
     "destroyedLocation": "bespin, rebuilt shortly after",
@@ -91,7 +88,7 @@
     "homeworld": "naboo",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/R2-D2",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png",
+    "image": "R2-D2.webp",
     "manufacturer": "Industrial Automaton",
     "productLine": "R-series",
     "model": "R2 series astromech droid",
@@ -139,7 +136,7 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Anakin_Skywalker",
-    "image": "https://vignette.wikia.nocookie.net/fr.starwars/images/3/32/Dark_Vador.jpg",
+    "image": "Darth_Vader.webp",
     "born": -41,
     "died": 4,
     "diedLocation": "death star ii, endor system",
@@ -160,10 +157,7 @@
       "Darth Sidious (Sith Master)",
       "Yoda (Force spirit teacher)"
     ],
-    "apprentices": [
-      "Ahsoka Tano (Padawan)",
-      "Inquisitorius"
-    ],
+    "apprentices": ["Ahsoka Tano (Padawan)", "Inquisitorius"],
     "formerAffiliations": [
       "Jedi Order",
       "Jedi High Council",
@@ -178,7 +172,7 @@
     "gender": "female",
     "homeworld": "alderaan",
     "wiki": "http://starwars.wikia.com/wiki/Leia_Organa",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/fc/Leia_Organa_TLJ.png",
+    "image": "Leia_Organa.webp",
     "born": -19,
     "bornLocation": "polis massa (2 days after empire day)",
     "species": "human",
@@ -211,16 +205,14 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Owen_Lars",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/OwenCardTrader.png",
+    "image": "Owen_Lars.webp",
     "died": 0,
     "diedLocation": "tatooine",
     "species": "human",
     "hairColor": "brown, later gray",
     "eyeColor": "blue",
     "skinColor": "light",
-    "affiliations": [
-      "Lars family"
-    ],
+    "affiliations": ["Lars family"],
     "born": -52,
     "formerAffiliations": []
   },
@@ -232,7 +224,7 @@
     "gender": "female",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Beru_Whitesun_Lars",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cc/BeruCardTrader.png",
+    "image": "Beru_Whitesun_lars.webp",
     "died": 0,
     "diedLocation": "tatooine",
     "species": "human",
@@ -252,15 +244,13 @@
     "homeworld": "tatooine",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/R5-D4",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cb/R5-D4_Sideshow.png",
+    "image": "R5-D4.webp",
     "manufacturer": "Industrial Automaton",
     "model": "R5 unit",
     "class": "Astromech droid",
     "sensorColor": "red",
     "platingColor": "white, red, blue",
-    "affiliations": [
-      "Alliance to Restore the Republic"
-    ],
+    "affiliations": ["Alliance to Restore the Republic"],
     "skinColor": "white, red",
     "eyeColor": "red",
     "formerAffiliations": []
@@ -273,7 +263,7 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Biggs_Darklighter",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/0/00/BiggsHS-ANH.png",
+    "image": "Biggs_Darklighter.webp",
     "died": 0,
     "diedLocation": "yavin system",
     "species": "human",
@@ -298,7 +288,7 @@
     "gender": "male",
     "homeworld": "stewjon",
     "wiki": "http://starwars.wikia.com/wiki/Obi-Wan_Kenobi",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg",
+    "image": "Obi-Wan_Kenobi.webp",
     "born": -57,
     "died": 0,
     "diedLocation": "death star, alderaan system",
@@ -313,14 +303,8 @@
       "212th Attack Battalion",
       "Alliance to Restore the Republic"
     ],
-    "masters": [
-      "Qui-Gon Jinn",
-      "Yoda"
-    ],
-    "apprentices": [
-      "Anakin Skywalker",
-      "Luke Skywalker"
-    ],
+    "masters": ["Qui-Gon Jinn", "Yoda"],
+    "apprentices": ["Anakin Skywalker", "Luke Skywalker"],
     "formerAffiliations": []
   },
   {
@@ -331,7 +315,7 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Anakin_Skywalker",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png",
+    "image": "Anakin_Skywalker.webp",
     "born": -41,
     "died": 4,
     "diedLocation": "death star ii, endor system",
@@ -352,10 +336,7 @@
       "Darth Sidious (Sith Master)",
       "Yoda (Force spirit teacher)"
     ],
-    "apprentices": [
-      "Ahsoka Tano (Padawan)",
-      "Inquisitorius"
-    ],
+    "apprentices": ["Ahsoka Tano (Padawan)", "Inquisitorius"],
     "formerAffiliations": [
       "Jedi Order",
       "Jedi High Council",
@@ -369,7 +350,7 @@
     "gender": "male",
     "homeworld": "eriadu",
     "wiki": "http://starwars.wikia.com/wiki/Wilhuff_Tarkin",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c1/Tarkininfobox.jpg",
+    "image": "Wilhuff_Tarkin.webp",
     "born": -64,
     "died": 0,
     "diedLocation": " death star, yavin system",
@@ -401,7 +382,7 @@
     "gender": "male",
     "homeworld": "kashyyyk",
     "wiki": "http://starwars.wikia.com/wiki/Chewbacca",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png",
+    "image": "Chewbacca.webp",
     "born": -200,
     "bornLocation": "kashyyyk",
     "species": "wookiee",
@@ -427,7 +408,7 @@
     "gender": "male",
     "homeworld": "corellia",
     "wiki": "http://starwars.wikia.com/wiki/Han_Solo",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png",
+    "image": "Han_Solo.webp",
     "born": -29,
     "bornLocation": "corellia",
     "died": 34,
@@ -457,20 +438,15 @@
     "height": 1.74,
     "mass": 74,
     "gender": "male",
-    "homeworld": [
-      "Rodia",
-      "Tatooine"
-    ],
+    "homeworld": ["Rodia", "Tatooine"],
     "wiki": "http://starwars.wikia.com/wiki/Greedo",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg",
+    "image": "Greedo.webp",
     "died": 0,
     "diedLocation": "tatooine",
     "species": "rodian",
     "eyeColor": "purple",
     "skinColor": "green",
-    "affiliations": [
-      "Trade Federation"
-    ],
+    "affiliations": ["Trade Federation"],
     "born": -44,
     "formerAffiliations": []
   },
@@ -482,7 +458,7 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Jabba_Desilijic_Tiure",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png",
+    "image": "Jabba_Desilijic_Tiure.webp",
     "born": -600,
     "died": 4,
     "diedLocation": "tatooine",
@@ -509,7 +485,7 @@
     "gender": "male",
     "homeworld": "corellia",
     "wiki": "http://starwars.wikia.com/wiki/Wedge_Antilles",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/b/b2/WedgeAntilles-Masterwork2020.png",
+    "image": "Wedge_Antilles.webp",
     "species": "human",
     "hairColor": "brown",
     "eyeColor": "brown",
@@ -535,7 +511,7 @@
     "gender": "male",
     "homeworld": "bestine",
     "wiki": "http://starwars.wikia.com/wiki/Jek_Tono_Porkins",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/JekPorkins-DB.png",
+    "image": "Jek_Tono_Porkins.webp",
     "died": 0,
     "diedLocation": "yavin system",
     "species": "human",
@@ -557,7 +533,7 @@
     "mass": 13,
     "gender": "male",
     "wiki": "http://starwars.wikia.com/wiki/Yoda",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png",
+    "image": "Yoda.webp",
     "born": -896,
     "died": 4,
     "diedLocation": "dagobah",
@@ -592,7 +568,7 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Palpatine",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d8/Emperor_Sidious.png",
+    "image": "Palpatine.webp",
     "born": -82,
     "bornLocation": "naboo",
     "died": 4,
@@ -601,11 +577,7 @@
     "hairColor": "red, later gray and white",
     "eyeColor": "blue; yellow/red (dark side)",
     "skinColor": "fair, later pale",
-    "era": [
-      "Rise of the Empire era",
-      "Rebellion era",
-      "New Republic era"
-    ],
+    "era": ["Rise of the Empire era", "Rebellion era", "New Republic era"],
     "affiliations": [
       "House Palpatine",
       "Damask Holdings",
@@ -644,7 +616,7 @@
     "gender": "male",
     "homeworld": "kamino",
     "wiki": "http://starwars.wikia.com/wiki/Boba_Fett",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/79/Boba_Fett_HS_Fathead.png",
+    "image": "Boba_Fett.webp",
     "born": "Shortly after the Battle of Naboo",
     "species": "human",
     "hairColor": "black",
@@ -666,7 +638,7 @@
     "gender": "male",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/IG-88",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f2/IG-88.png",
+    "image": "IG-88.webp",
     "dateDestroyed": 3,
     "destroyedLocation": "bespin",
     "manufacturer": "Holowan Laboratories",
@@ -703,12 +675,12 @@
   {
     "id": 23,
     "name": "Bossk",
-    "height": 1.90,
+    "height": 1.9,
     "mass": 113,
     "gender": "male",
     "homeworld": "trandosha",
     "wiki": "http://starwars.wikia.com/wiki/Bossk",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/1d/Bossk.png",
+    "image": "Bossk.webp",
     "species": "trandoshan",
     "eyeColor": "orange",
     "skinColor": "green",
@@ -729,7 +701,7 @@
     "gender": "male",
     "homeworld": "socorro",
     "wiki": "http://starwars.wikia.com/wiki/Lando_Calrissian",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/8/8f/Lando_ROTJ.png",
+    "image": "Lando_Calrissian.webp",
     "born": -30,
     "species": "human",
     "hairColor": "black",
@@ -755,7 +727,7 @@
     "gender": "male",
     "homeworld": "bespin",
     "wiki": "http://starwars.wikia.com/wiki/Lobot",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/9/96/SWE_Lobot.jpg",
+    "image": "Lobot.webp",
     "species": "human",
     "eyeColor": "blue",
     "skinColor": "light",
@@ -778,7 +750,7 @@
     "gender": "male",
     "homeworld": "mon cala",
     "wiki": "http://starwars.wikia.com/wiki/Gial_Ackbar",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/29/Admiral_Ackbar_RH.png",
+    "image": "Ackbar.webp",
     "born": -50,
     "died": 34,
     "diedLocation": "raddus, oetchi system",
@@ -809,7 +781,7 @@
     "gender": "female",
     "homeworld": "chandrila",
     "wiki": "http://starwars.wikia.com/wiki/Mon_Mothma",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/4/46/Monmothma.jpg",
+    "image": "Mon_Mothma.webp",
     "born": -46,
     "species": "human",
     "hairColor": "auburn",
@@ -832,16 +804,13 @@
     "name": "Arvel Crynyd",
     "gender": "male",
     "wiki": "http://starwars.wikia.com/wiki/Arvel_Crynyd",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/de/Arvel-crynyd.jpg",
+    "image": "Arvel_Crynyd.webp",
     "died": 4,
     "diedLocation": "executor",
     "species": "human",
     "eyeColor": "brown",
     "skinColor": "light",
-    "affiliations": [
-      "Alliance to Restore the Republic",
-      "Green Squadron"
-    ],
+    "affiliations": ["Alliance to Restore the Republic", "Green Squadron"],
     "hairColor": "brown",
     "formerAffiliations": []
   },
@@ -853,14 +822,11 @@
     "gender": "male",
     "homeworld": "endor",
     "wiki": "http://starwars.wikia.com/wiki/Wicket_W._Warrick",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4f/Wicket_RotJ.png",
+    "image": "Wicket_Systri_Warrick.webp",
     "species": "ewok",
     "hairColor": "brown",
     "eyeColor": "brownish black",
-    "affiliations": [
-      "Bright Tree tribe",
-      "Alliance to Restore the Republic"
-    ],
+    "affiliations": ["Bright Tree tribe", "Alliance to Restore the Republic"],
     "skinColor": "brown",
     "born": -8,
     "formerAffiliations": []
@@ -873,7 +839,7 @@
     "gender": "male",
     "homeworld": "sullust",
     "wiki": "http://starwars.wikia.com/wiki/Nien_Nunb",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/14/Old_nien_nunb_-_profile.png",
+    "image": "Nien_Nunb.webp",
     "species": "sullustan",
     "eyeColor": "black",
     "skinColor": "light",
@@ -895,17 +861,14 @@
     "gender": "male",
     "homeworld": "coruscant",
     "wiki": "http://starwars.wikia.com/wiki/Qui-Gon_Jinn",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg",
+    "image": "Qui-Gon_Jinn.webp",
     "died": -32,
     "diedLocation": "naboo",
     "species": "human",
     "hairColor": "brown",
     "eyeColor": "blue",
     "skinColor": "light",
-    "affiliations": [
-      "Jedi Order",
-      "Galactic Republic"
-    ],
+    "affiliations": ["Jedi Order", "Galactic Republic"],
     "masters": "Dooku",
     "apprentices": [
       "Obi-Wan Kenobi",
@@ -923,7 +886,7 @@
     "gender": "male",
     "homeworld": "neimoidia",
     "wiki": "http://starwars.wikia.com/wiki/Nute_Gunray",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/fd/Nute_Gunray_SWE.png",
+    "image": "Nute_Gunray.webp",
     "died": -19,
     "diedLocation": "mustafar",
     "species": "neimoidian",
@@ -943,16 +906,12 @@
     "gender": "male",
     "homeworld": "coruscant",
     "wiki": "http://starwars.wikia.com/wiki/Finis_Valorum",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/51/ValorumPortrait-SWE.png",
+    "image": "Finis_Valorum.webp",
     "species": "human",
     "hairColor": "white",
     "eyeColor": "blue",
     "skinColor": "fair",
-    "affiliations": [
-      "House Valorum",
-      "Galactic Republic",
-      "Galactic Senate"
-    ],
+    "affiliations": ["House Valorum", "Galactic Republic", "Galactic Senate"],
     "born": -91,
     "formerAffiliations": []
   },
@@ -964,7 +923,7 @@
     "gender": "female",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Padm%C3%A9_Amidala",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg",
+    "image": "Padmé_Amidala.webp",
     "born": -46,
     "bornLocation": "naboo",
     "died": -19,
@@ -993,7 +952,7 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Jar_Jar_Binks",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d2/Jar_Jar_aotc.jpg",
+    "image": "Jar_Jar_Binks.webp",
     "species": "gungan",
     "eyeColor": "yellow",
     "skinColor": "orange and white",
@@ -1016,15 +975,13 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Roos_Tarpals",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/c/ca/TarpalsHS.jpg",
+    "image": "Roos_Tarpals.webp",
     "died": -20,
     "diedLocation": "naboo",
     "species": "gungan",
     "eyeColor": "orange",
     "skinColor": "purple and white",
-    "affiliations": [
-      "Gungan Grand Army"
-    ],
+    "affiliations": ["Gungan Grand Army"],
     "formerAffiliations": []
   },
   {
@@ -1034,13 +991,11 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Rugor_Nass",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d8/Bossnass.jpg",
+    "image": "Rugor_Nass.webp",
     "species": "gungan",
     "eyeColor": "yellow",
     "skinColor": "green",
-    "affiliations": [
-      "Gungan High Council"
-    ],
+    "affiliations": ["Gungan High Council"],
     "formerAffiliations": []
   },
   {
@@ -1050,7 +1005,7 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Ric_Oli%C3%A9",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4c/RicOlieHS-SWE.png",
+    "image": "Ric_Olié.webp",
     "species": "human",
     "hairColor": "light brown",
     "eyeColor": "bluish green",
@@ -1069,14 +1024,11 @@
     "gender": "male",
     "homeworld": "toydaria",
     "wiki": "http://starwars.wikia.com/wiki/Watto",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/WattoHS.jpg",
+    "image": "Watto.webp",
     "species": "toydarian",
     "eyeColor": "orange",
     "skinColor": "blue",
-    "affiliations": [
-      "Watto's shop",
-      "Mos Espa"
-    ],
+    "affiliations": ["Watto's shop", "Mos Espa"],
     "hairColor": "black",
     "formerAffiliations": []
   },
@@ -1088,7 +1040,7 @@
     "gender": "male",
     "homeworld": "malastare",
     "wiki": "http://starwars.wikia.com/wiki/Sebulba",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/14/Sebulba_Headshot_Closeup.png",
+    "image": "Sebulba.webp",
     "species": "dug",
     "eyeColor": "yellow",
     "skinColor": "purple and beige",
@@ -1102,7 +1054,7 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Quarsh_Panaka",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/72/PanakaHS-TPM.png",
+    "image": "Quarsh_Panaka.webp",
     "died": -3,
     "diedLocation": "onoam",
     "species": "human",
@@ -1126,7 +1078,7 @@
     "gender": "female",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Shmi_Skywalker_Lars",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/9/98/ShmiSkywalkerDatabank_%28Repurposed%29.jpg",
+    "image": "Shmi_Skywalker.webp",
     "born": -72,
     "died": -22,
     "diedLocation": "tatooine",
@@ -1134,10 +1086,7 @@
     "hairColor": "brown",
     "eyeColor": "brown",
     "skinColor": "light",
-    "affiliations": [
-      "Skywalker family",
-      "Lars family"
-    ],
+    "affiliations": ["Skywalker family", "Lars family"],
     "formerAffiliations": []
   },
   {
@@ -1148,16 +1097,13 @@
     "gender": "male",
     "homeworld": "dathomir",
     "wiki": "http://starwars.wikia.com/wiki/Darth_Maul",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/50/Darth_Maul_profile.png",
+    "image": "Darth_Maul.webp",
     "died": -2,
     "diedLocation": "tatooine",
     "species": "dathomirian zabrak",
     "eyeColor": "yellow and red",
     "skinColor": "red (black tattoos)",
-    "cybernetics": [
-      "Six-legged apparatus (formerly)",
-      "Two cybernetic legs"
-    ],
+    "cybernetics": ["Six-legged apparatus (formerly)", "Two cybernetic legs"],
     "affiliations": [
       "Nightbrothers",
       "Sith",
@@ -1168,9 +1114,7 @@
     "masters": "Darth Sidious",
     "apprentices": "Savage Opress",
     "born": -54,
-    "formerAffiliations": [
-      "Trade Federation"
-    ]
+    "formerAffiliations": ["Trade Federation"]
   },
   {
     "id": 44,
@@ -1179,7 +1123,7 @@
     "gender": "male",
     "homeworld": "ryloth",
     "wiki": "http://starwars.wikia.com/wiki/Bib_Fortuna",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/33/BibFortunaHS-ROTJ.png",
+    "image": "Bib_Fortuna.webp",
     "died": 4,
     "diedLocation": "tatooine",
     "species": "twi'lek",
@@ -1199,7 +1143,7 @@
     "gender": "female",
     "homeworld": "ryloth",
     "wiki": "http://starwars.wikia.com/wiki/Aayla_Secura/Legends",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f9/Aayla.jpg",
+    "image": "Ayla_Secura.webp",
     "born": -48,
     "died": -19,
     "diedLocation": "felucia",
@@ -1207,10 +1151,7 @@
     "eyeColor": "hazel",
     "skinColor": "blue",
     "era": "Rise of the Empire era",
-    "affiliations": [
-      "Jedi Order",
-      "Galactic Republic"
-    ],
+    "affiliations": ["Jedi Order", "Galactic Republic"],
     "masters": [
       "Quinlan Vos (Jedi Master)",
       "Volfe Karkko (Dark Jedi master) (briefly)",
@@ -1226,7 +1167,7 @@
     "gender": "male",
     "homeworld": "aleen",
     "wiki": "http://starwars.wikia.com/wiki/Ratts_Tyerell",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/6/68/RattsHS.jpg",
+    "image": "Ratts_Tyerell.webp",
     "died": -32,
     "diedLocation": "tatooine",
     "species": "aleena",
@@ -1243,7 +1184,7 @@
     "gender": "male",
     "homeworld": "vulpter",
     "wiki": "http://starwars.wikia.com/wiki/Dud_Bolt",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/73/Dud_Bolt_Podracer_Cockpit.png",
+    "image": "Dud_Bolt.webp",
     "species": "vulptereen",
     "eyeColor": "yellow",
     "skinColor": "blue-gray, yellow, white",
@@ -1257,7 +1198,7 @@
     "gender": "male",
     "homeworld": "troiken",
     "wiki": "http://starwars.wikia.com/wiki/Gasgano",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/3/30/Gasgano.jpg",
+    "image": "Gasgano.webp",
     "species": "xexto",
     "eyeColor": "black",
     "skinColor": "white, brown, purple",
@@ -1272,7 +1213,7 @@
     "gender": "male",
     "homeworld": "tund",
     "wiki": "http://starwars.wikia.com/wiki/Ben_Quadinaros",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Cropped_Quadinaros.png",
+    "image": "Ben_Quadinaros.webp",
     "species": "toong",
     "eyeColor": "orange",
     "skinColor": "yellow",
@@ -1287,7 +1228,7 @@
     "gender": "male",
     "homeworld": "haruun kal",
     "wiki": "http://starwars.wikia.com/wiki/Mace_Windu",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/58/Mace_ROTS.png",
+    "image": "Mace_Windu.webp",
     "born": -72,
     "died": -19,
     "diedLocation": "coruscant",
@@ -1315,7 +1256,7 @@
     "gender": "male",
     "homeworld": "cerea",
     "wiki": "http://starwars.wikia.com/wiki/Ki-Adi-Mundi",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/9e/KiAdiMundi.jpg",
+    "image": "Ki-Adi-Mundi.webp",
     "died": -19,
     "diedLocation": "mygeeto",
     "species": "cerean",
@@ -1340,7 +1281,7 @@
     "gender": "male",
     "homeworld": "glee anselm",
     "wiki": "http://starwars.wikia.com/wiki/Kit_Fisto",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4c/Kit_Fisto_Card_Trader.png",
+    "image": "Kit_Fisto.webp",
     "died": -19,
     "diedLocation": "coruscant",
     "species": "nautolan",
@@ -1363,7 +1304,7 @@
     "gender": "male",
     "homeworld": "nar shaddaa",
     "wiki": "http://starwars.wikia.com/wiki/Eeth_Koth",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/EethKothCardTrader.png",
+    "image": "Eeth_Koth.webp",
     "species": "iridonian zabrak",
     "hairColor": "black",
     "eyeColor": "brown",
@@ -1384,7 +1325,7 @@
     "gender": "female",
     "homeworld": "coruscant",
     "wiki": "http://starwars.wikia.com/wiki/Adi_Gallia",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/c/c8/AdiGallia2-SWE.jpg",
+    "image": "Adi_Gallia.webp",
     "died": -20,
     "diedLocation": "florrum",
     "species": "tholothian",
@@ -1406,7 +1347,7 @@
     "gender": "male",
     "homeworld": "iktotch",
     "wiki": "http://starwars.wikia.com/wiki/Saesee_Tiin",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/c/ca/Iktotchi_AA.JPG",
+    "image": "Saesee_Tiin.webp",
     "died": -19,
     "diedLocation": "coruscant",
     "species": "iktotchi",
@@ -1428,16 +1369,12 @@
     "gender": "male",
     "homeworld": "quermia",
     "wiki": "http://starwars.wikia.com/wiki/Yarael_Poof",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/f/f4/Yarael_Poof_Canon.jpg",
+    "image": "Yarael_Poof.webp",
     "died": -27,
     "species": "quermian",
     "eyeColor": "red",
     "skinColor": "pasty white",
-    "affiliations": [
-      "Jedi Order",
-      "Jedi High Council",
-      "Galactic Republic"
-    ],
+    "affiliations": ["Jedi Order", "Jedi High Council", "Galactic Republic"],
     "formerAffiliations": []
   },
   {
@@ -1448,7 +1385,7 @@
     "gender": "male",
     "homeworld": "dorin",
     "wiki": "http://starwars.wikia.com/wiki/Plo_Koon",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/bf/PloKoonCardTrader.png",
+    "image": "Plo_Koon.webp",
     "died": -19,
     "diedLocation": "cato neimoidia",
     "species": "kel dor",
@@ -1471,7 +1408,7 @@
     "gender": "male",
     "homeworld": "champala",
     "wiki": "http://starwars.wikia.com/wiki/Mas_Amedda",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Mas_Amedda_SWCT.png",
+    "image": "Mas_Amedda.webp",
     "species": "chagrian",
     "eyeColor": "blue",
     "skinColor": "blue",
@@ -1494,7 +1431,7 @@
     "gender": "male",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Gregar_Typho",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/52/Gregar_Typho.jpg",
+    "image": "Gregar_Typho.webp",
     "species": "human",
     "hairColor": "black",
     "eyeColor": "brown",
@@ -1513,7 +1450,7 @@
     "gender": "female",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Cord%C3%A9",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/b/b6/Cord%C3%A9_-_SW_Card_Trader.png",
+    "image": "Cordé.webp",
     "died": -22,
     "diedLocation": "coruscant",
     "species": "human",
@@ -1534,15 +1471,13 @@
     "gender": "male",
     "homeworld": "tatooine",
     "wiki": "http://starwars.wikia.com/wiki/Cliegg_Lars",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/36/ClieggLarsHS-SWE.jpg",
+    "image": "Cliegg_Lars.webp",
     "died": -22,
     "species": "human",
     "hairColor": "light brown",
     "eyeColor": "blue",
     "skinColor": "fair",
-    "affiliations": [
-      "Lars family"
-    ],
+    "affiliations": ["Lars family"],
     "born": -82,
     "formerAffiliations": []
   },
@@ -1554,7 +1489,7 @@
     "gender": "male",
     "homeworld": "geonosis",
     "wiki": "http://starwars.wikia.com/wiki/Poggle_the_Lesser",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/93/Poggle_the_lesser_-_sw_card_trader.png",
+    "image": "Poggle_the_Lesser.webp",
     "died": -19,
     "diedLocation": "mustafar",
     "species": "geonosian",
@@ -1578,7 +1513,7 @@
     "gender": "female",
     "homeworld": "mirial",
     "wiki": "http://starwars.wikia.com/wiki/Luminara_Unduli",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/2/21/LuminaraHS-SWE_%28new%29.png",
+    "image": "Luminara_Unduli.webp",
     "died": 66,
     "species": "mirialan",
     "hairColor": "black",
@@ -1602,7 +1537,7 @@
     "gender": "female",
     "homeworld": "mirial",
     "wiki": "http://starwars.wikia.com/wiki/Barriss_Offee",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Barrisprofile2.jpg",
+    "image": "Barriss_Offee.webp",
     "species": "mirialan",
     "hairColor": "black",
     "eyeColor": "blue",
@@ -1624,7 +1559,7 @@
     "gender": "female",
     "homeworld": "naboo",
     "wiki": "http://starwars.wikia.com/wiki/Dorm%C3%A9",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/1/18/Dormesenate.jpg",
+    "image": "Dormé.webp",
     "species": "human",
     "hairColor": "brown",
     "eyeColor": "brown",
@@ -1644,7 +1579,7 @@
     "gender": "male",
     "homeworld": "serenno",
     "wiki": "http://starwars.wikia.com/wiki/Dooku",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b8/Dooku_Headshot.jpg",
+    "image": "Dooku.webp",
     "born": -102,
     "died": -19,
     "diedLocation": "aboard invisible hand over coruscant",
@@ -1659,10 +1594,7 @@
       "Independent Movement for Self-Determination",
       "Confederacy of Independent Systems"
     ],
-    "masters": [
-      "Yoda (Jedi)",
-      "Darth Sidious (Sith)"
-    ],
+    "masters": ["Yoda (Jedi)", "Darth Sidious (Sith)"],
     "apprentices": [
       "Qui-Gon Jinn (Jedi)",
       "Grievous (lightsaber trainee)",
@@ -1670,10 +1602,7 @@
       "Savage Opress (Sith)",
       "Quinlan Vos (Sith)"
     ],
-    "formerAffiliations": [
-      "Jedi Order",
-      "Galactic Republic"
-    ]
+    "formerAffiliations": ["Jedi Order", "Galactic Republic"]
   },
   {
     "id": 67,
@@ -1682,7 +1611,7 @@
     "gender": "male",
     "homeworld": "alderaan",
     "wiki": "http://starwars.wikia.com/wiki/Bail_Prestor_Organa",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/50/Bail_Organa_Mug.jpg",
+    "image": "Bail_Prestor_Organa.webp",
     "born": -67,
     "died": 0,
     "diedLocation": "alderaan",
@@ -1690,10 +1619,7 @@
     "hairColor": "black",
     "eyeColor": "brown",
     "skinColor": "tan",
-    "era": [
-      "Rise of the Empire era",
-      "Rebellion era"
-    ],
+    "era": ["Rise of the Empire era", "Rebellion era"],
     "affiliations": [
       "House of Organa",
       "High Court of Alderaan",
@@ -1722,17 +1648,14 @@
     "gender": "male",
     "homeworld": "concord dawn",
     "wiki": "http://starwars.wikia.com/wiki/Jango_Fett",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/56/JangoInfobox.png",
+    "image": "Jango_Fett.webp",
     "died": -22,
     "diedLocation": "geonosis",
     "species": "human",
     "hairColor": "black",
     "eyeColor": "brown",
     "skinColor": "tan",
-    "affiliations": [
-      "Confederacy of Independent Systems",
-      "Tyranus"
-    ],
+    "affiliations": ["Confederacy of Independent Systems", "Tyranus"],
     "born": -66,
     "formerAffiliations": []
   },
@@ -1744,15 +1667,12 @@
     "gender": "female",
     "homeworld": "zolan",
     "wiki": "http://starwars.wikia.com/wiki/Zam_Wesell",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7d/Clawdite.jpg",
+    "image": "Zam_Wesell.webp",
     "died": -22,
     "diedLocation": "coruscant",
     "species": "clawdite",
     "skinColor": "green",
-    "affiliations": [
-      "Mabari",
-      "Confederacy of Independent Systems"
-    ],
+    "affiliations": ["Mabari", "Confederacy of Independent Systems"],
     "hairColor": "blond",
     "eyeColor": "yellow",
     "formerAffiliations": []
@@ -1765,14 +1685,12 @@
     "gender": "male",
     "homeworld": "ojom",
     "wiki": "http://starwars.wikia.com/wiki/Dexter_Jettster",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/6/6c/DexterHS-SWE.jpg",
+    "image": "Dexter_Jettster.webp",
     "species": "besalisk",
     "hairColor": "brown-black",
     "eyeColor": "yellow",
     "skinColor": "tan-brown",
-    "affiliations": [
-      "Dex's Diner"
-    ],
+    "affiliations": ["Dex's Diner"],
     "formerAffiliations": []
   },
   {
@@ -1783,13 +1701,11 @@
     "gender": "male",
     "homeworld": "kamino",
     "wiki": "http://starwars.wikia.com/wiki/Lama_Su",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/73/Lama_Su.jpg",
+    "image": "Lama_Su.webp",
     "species": "kaminoan",
     "eyeColor": "black with white pupils",
     "skinColor": "white",
-    "affiliations": [
-      "Galactic Republic"
-    ],
+    "affiliations": ["Galactic Republic"],
     "formerAffiliations": []
   },
   {
@@ -1799,13 +1715,11 @@
     "gender": "female",
     "homeworld": "kamino",
     "wiki": "http://starwars.wikia.com/wiki/Taun_We",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/9c/TaunWe.jpg",
+    "image": "Taun_We.webp",
     "species": "kaminoan",
     "eyeColor": "black with white pupils",
     "skinColor": "white",
-    "affiliations": [
-      "Galactic Republic"
-    ],
+    "affiliations": ["Galactic Republic"],
     "formerAffiliations": []
   },
   {
@@ -1815,17 +1729,14 @@
     "gender": "female",
     "homeworld": "coruscant",
     "wiki": "http://starwars.wikia.com/wiki/Jocasta_Nu",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/15/Jocasta_Nu_SWE.png",
+    "image": "Jocasta_Nu.webp",
     "died": -19,
     "diedLocation": "coruscant",
     "species": "human",
     "hairColor": "white",
     "eyeColor": "blue",
     "skinColor": "light",
-    "affiliations": [
-      "Jedi Order",
-      "Jedi High Council"
-    ],
+    "affiliations": ["Jedi Order", "Jedi High Council"],
     "formerAffiliations": []
   },
   {
@@ -1835,7 +1746,7 @@
     "gender": "female",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/R4-P17",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6b/R4-P17.jpg",
+    "image": "R4-P17.webp",
     "dateDestroyed": -19,
     "destroyedLocation": "coruscant system",
     "manufacturer": "Industrial Automaton",
@@ -1843,9 +1754,7 @@
     "class": "Astromech droid",
     "platingColor": "red",
     "armament": "Electro-shock prod",
-    "affiliations": [
-      "Galactic Republic"
-    ],
+    "affiliations": ["Galactic Republic"],
     "skinColor": "silver, red",
     "eyeColor": "red, blue",
     "formerAffiliations": []
@@ -1858,7 +1767,7 @@
     "gender": "male",
     "homeworld": "skako",
     "wiki": "http://starwars.wikia.com/wiki/Wat_Tambor",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/a/a5/Wat_Tambor.png",
+    "image": "Wat_Tambor.webp",
     "died": -19,
     "diedLocation": "mustafar",
     "species": "skakoan",
@@ -1879,7 +1788,7 @@
     "gender": "male",
     "homeworld": "scipio",
     "wiki": "http://starwars.wikia.com/wiki/San_Hill",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/6/6f/SanHill_hs.jpg",
+    "image": "San_Hill.webp",
     "died": -19,
     "diedLocation": "mustafar",
     "species": "muun",
@@ -1901,7 +1810,7 @@
     "gender": "female",
     "homeworld": "shili",
     "wiki": "http://starwars.wikia.com/wiki/Shaak_Ti",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/20/Shaak_Ti_closeup-SWE.png",
+    "image": "Shaak_Ti.webp",
     "born": -59,
     "died": -19,
     "diedLocation": "coruscant",
@@ -1925,7 +1834,7 @@
     "gender": "male",
     "homeworld": "kalee",
     "wiki": "http://starwars.wikia.com/wiki/Grievous",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/d/de/Grievoushead.jpg",
+    "image": "Grievous.webp",
     "died": -19,
     "diedLocation": "utapau",
     "species": "kaleesh",
@@ -1947,13 +1856,11 @@
     "gender": "male",
     "homeworld": "kashyyyk",
     "wiki": "http://starwars.wikia.com/wiki/Tarfful",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Tarfful_RotS.png",
+    "image": "Tarfful.webp",
     "species": "wookiee",
     "hairColor": "brown",
     "eyeColor": "blue",
-    "affiliations": [
-      "Galactic Republic"
-    ],
+    "affiliations": ["Galactic Republic"],
     "skinColor": "brown",
     "formerAffiliations": []
   },
@@ -1965,7 +1872,7 @@
     "gender": "male",
     "homeworld": "alderaan",
     "wiki": "http://starwars.wikia.com/wiki/Raymus_Antilles",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/8/80/Raymus_card_trader.png",
+    "image": "Raymus_Antilles.webp",
     "died": 0,
     "diedLocation": "tantive iv, tatoo system",
     "species": "human",
@@ -1987,7 +1894,7 @@
     "gender": "female",
     "homeworld": "umbara",
     "wiki": "http://starwars.wikia.com/wiki/Sly_Moore",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/e/ec/SlyMooreIsWatchingYouPoop-OfficialPix.jpg",
+    "image": "Sly_Moore.webp",
     "species": "umbaran",
     "eyeColor": "white",
     "skinColor": "pale",
@@ -2006,13 +1913,11 @@
     "gender": "male",
     "homeworld": "utapau",
     "wiki": "http://starwars.wikia.com/wiki/Tion_Medon",
-    "image": "https://static.wikia.nocookie.net/esstarwars/images/1/1f/Tion.jpg",
+    "image": "Tion_Medon.webp",
     "species": "pau'an",
     "eyeColor": "black",
     "skinColor": "gray (with red markings)",
-    "affiliations": [
-      "Galactic Republic"
-    ],
+    "affiliations": ["Galactic Republic"],
     "formerAffiliations": []
   },
   {
@@ -2022,17 +1927,13 @@
     "mass": 73,
     "gender": "male",
     "wiki": "http://starwars.wikia.com/wiki/Finn",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/a/af/Finn_TLJ_Collector%27s_Edition.png",
+    "image": "Finn.webp",
     "born": 11,
     "species": "human",
     "hairColor": "black",
     "eyeColor": "brown",
     "skinColor": "dark",
-    "affiliations": [
-      "First Order",
-      "FN Corps",
-      "Resistance"
-    ],
+    "affiliations": ["First Order", "FN Corps", "Resistance"],
     "formerAffiliations": []
   },
   {
@@ -2043,16 +1944,13 @@
     "gender": "female",
     "homeworld": "jakku",
     "wiki": "http://starwars.wikia.com/wiki/Rey",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f8/ReyTLJEntertainmentWeeklyNovember.png",
+    "image": "Rey.webp",
     "born": 15,
     "species": "human",
     "hairColor": "brown",
     "eyeColor": "hazel",
     "skinColor": "light",
-    "affiliations": [
-      "Resistance",
-      "Jedi Order"
-    ],
+    "affiliations": ["Resistance", "Jedi Order"],
     "masters": "Luke Skywalker",
     "formerAffiliations": []
   },
@@ -2064,7 +1962,7 @@
     "gender": "male",
     "homeworld": "yavin 4",
     "wiki": "http://starwars.wikia.com/wiki/Poe_Dameron",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png",
+    "image": "Poe_Dameron.webp",
     "born": 2,
     "species": "human",
     "hairColor": "brown",
@@ -2090,7 +1988,7 @@
     "gender": "male",
     "species": "droid",
     "wiki": "http://starwars.wikia.com/wiki/BB-8",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/68/BB8-Fathead.png",
+    "image": "BB8.webp",
     "model": "BB-series",
     "class": "Astromech droid",
     "sensorColor": "black",
@@ -2113,12 +2011,12 @@
   {
     "id": 87,
     "name": "Captain Phasma",
-    "height": 2.0,
+    "height": 2,
     "mass": 76,
     "gender": "female",
     "homeworld": "parnassos",
     "wiki": "http://starwars.wikia.com/wiki/Phasma",
-    "image": "https://vignette.wikia.nocookie.net/starwars/images/0/02/Phasma.png",
+    "image": "Captain_Phasma.webp",
     "species": "human",
     "hairColor": "gold",
     "eyeColor": "blue",
