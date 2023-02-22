@@ -12,7 +12,7 @@ export default component$((props: any) => {
         <img
           class="w-40 h-40 object-cover object-top mx-auto"
           alt={name}
-          src={image}
+          src={`/images/${image}`}
         />
         <h5 class="text-center mb-5 mt-5 font-semibold">{name}</h5>
         <button
