@@ -1,7 +1,7 @@
 import type { RequestHandler } from "@builder.io/qwik-city";
 import { getMatchIds } from "../../serverUtils/getMatchIds";
 import imageList from "../../../public/starwars.json";
-import prisma from '../../../lib/prisma';
+import prisma from '../../lib/prisma';
 
 export const onPost: RequestHandler = async ({ json, request }) => {
   try {

@@ -1,5 +1,5 @@
 import type { RequestHandler } from '@builder.io/qwik-city';
-import prisma from '../../../lib/prisma';
+import prisma from '../../lib/prisma';
 import { findCharacter } from '../../serverUtils/findCharacter';
 
 export const onGet: RequestHandler = async ({ json }) => {
