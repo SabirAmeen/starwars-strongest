@@ -1,13 +1,13 @@
 import type { RequestHandler } from '@builder.io/qwik-city';
+import prisma from '../../lib/prisma';
 import { findCharacter } from '../../serverUtils/findCharacter';
-import { connectDB } from "../../serverUtils/connectDB";
 
 export const onGet: RequestHandler = async ({ json }) => {
   try {
-    const dbResult: any = await connectDB(`SELECT * FROM vote_bank`);
+    const dbResult: any = await prisma.vote_bank.findMany();
     let apiResult = [];
-    if (dbResult.rows.length) {
-      apiResult = dbResult.rows.map((row: any) => {
+    if (dbResult.length) {
+      apiResult = dbResult.map((row: any) => {
         const {id, image, name} = findCharacter(row.id);
         return ({
           id,

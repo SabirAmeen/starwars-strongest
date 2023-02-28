@@ -1,21 +1,40 @@
 import type { RequestHandler } from "@builder.io/qwik-city";
 import { getMatchIds } from "../../serverUtils/getMatchIds";
 import imageList from "../../../public/starwars.json";
-import { connectDB } from "../../serverUtils/connectDB";
+import prisma from '../../lib/prisma';
 
 export const onPost: RequestHandler = async ({ json, request }) => {
   try {
     const requestBody = await request.json();
-    const loser = requestBody.firstImgID === requestBody.winner ? requestBody.secImgID : requestBody.firstImgID
-    await connectDB(`UPDATE vote_bank SET hits=hits+1, totalhits=totalhits+1 WHERE id=${requestBody.winner};
-    INSERT INTO vote_bank (id, hits, totalhits)
-    SELECT ${requestBody.winner}, 1, 1
-    WHERE NOT EXISTS (SELECT 1 FROM vote_bank WHERE id=${requestBody.winner});
-    UPDATE vote_bank SET totalhits=totalhits+1 WHERE id=${loser};
-    INSERT INTO vote_bank (id, hits, totalhits)
-    SELECT ${loser}, 0, 1
-    WHERE NOT EXISTS (SELECT 1 FROM vote_bank WHERE id=${loser})
-    `);
+    const loser = requestBody.firstImgID === requestBody.winner ? requestBody.secImgID : requestBody.firstImgID;
+    const upCreateWinner = prisma.vote_bank.upsert({
+      where: {
+        id: requestBody.winner,
+      },
+      update: {
+        hits: { increment: 1 },
+        totalhits: { increment: 1 },
+      },
+      create: {
+        id: requestBody.winner,
+        hits: 1,
+        totalhits: 1,
+      }
+    });
+    const upCreateLoser = prisma.vote_bank.upsert({
+      where: {
+        id: loser,
+      },
+      update: {
+        totalhits: { increment: 1 },
+      },
+      create: {
+        id: loser,
+        hits: 0,
+        totalhits: 1,
+      }
+    })
+    await prisma.$transaction([upCreateWinner, upCreateLoser])
     const firstId = getMatchIds();
     const secondId = getMatchIds(firstId);
     json(200, {
