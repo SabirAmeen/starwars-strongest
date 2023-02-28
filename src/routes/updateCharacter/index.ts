@@ -33,7 +33,7 @@ export const onPost: RequestHandler = async ({ json, request }) => {
         hits: 0,
         totalhits: 1,
       }
-    })
+    });
     await prisma.$transaction([upCreateWinner, upCreateLoser])
     const firstId = getMatchIds();
     const secondId = getMatchIds(firstId);
